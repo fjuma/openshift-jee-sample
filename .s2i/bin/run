@@ -1,3 +1,4 @@
 #!/bin/bash
 echo hello world
-exec /wildfly/bin/standalone.sh -b ${container_ip} -Djboss.http.port=80 -Djboss.https.port=443
+exec /wildfly/bin/standalone.sh -b wildfly-mydemo.7e14.starter-us-west-2.openshiftapps.com 
+ -Djboss.http.port=80 -Djboss.https.port=443
