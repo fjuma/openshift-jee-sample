@@ -1,3 +1,3 @@
 #!/bin/bash
 echo hello world
-sudo /wildfly/bin/standalone.sh -b ${container_ip} -Djboss.http.port=80 -Djboss.https.port=443
+exec /wildfly/bin/standalone.sh -b ${container_ip} -Djboss.http.port=80 -Djboss.https.port=443
