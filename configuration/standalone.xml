@@ -370,12 +370,12 @@
                     <key-store name="serverKS">
                         <credential-reference clear-text="secret"/>
                         <implementation type="JKS"/>
-                        <file path="/data/server.keystore.jks"/>
+                        <file path="/mydata/server.keystore.jks"/>
                     </key-store>
                     <key-store name="accountsKS">
                         <credential-reference clear-text="secret"/>
                         <implementation type="JKS"/>
-                        <file path="/data/accounts.keystore.jks"/>
+                        <file path="/mydata/accounts.keystore.jks"/>
                     </key-store>
                 </key-stores>
                 <key-managers>
