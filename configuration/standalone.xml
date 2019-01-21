@@ -384,7 +384,7 @@
                     </key-manager>
                 </key-managers>
                 <server-ssl-contexts>
-                    <server-ssl-context name="ssc" protocols="TLSv1.2" key-manager="httpsKM"/>
+                    <server-ssl-context name="ssc" key-manager="httpsKM"/>
                 </server-ssl-contexts>
                 <certificate-authority-accounts>  
             <certificate-authority-account name="myLetsEncryptAccount" contact-urls="mailto:admin@admin.org">  
